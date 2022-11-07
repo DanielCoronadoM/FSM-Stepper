@@ -1,0 +1,24 @@
+timestamp=1667796760685
+
+[~A]
+ModifyID=4
+Version=74
+
+[~MFT]
+0=8|0Stepper.mgf|3812|2340
+1=2|1Stepper.mgf|2536|2536
+3=2|3Stepper.mgf|0|0
+
+[fsm]
+A/functional=21|../src/FSM.vhd|16|1*2536
+BinW64/functional=3*0
+I=0*1956
+I/functional=0*3812
+M=11|2|vef|1667796755520|../src/FSM.vhd|0*1619*0x60aba193da09e1fa12a402a6f0ec7af3c0d1c3f7|0*1885*0x23b75c12e3e89f2ef000564498faa8c2
+M/functional=21|2|vef|1667796760665|../src/FSM.vhd|0*3081*0x6b9cf587c5688fd55c67de1ae35ed24e7b5b7c9e|0*3727*0x20116f55b147878295aeff36dce7fc50
+R=../src/FSM.vhd|7
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|d274df6d00ba93fbeb16b3acd8e09e75758f6eca041ae373a973ee43fc9a3ecf
+Version/functional=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|9e3113cfe7e883bc10b6ceba6acdf45e4850f667d13a2a5f2c821158b0d86a3f32c1e2481aee1c3ce3e5d955280ff530
+
+[~U]
+fsm=FSM 11|0*1412|

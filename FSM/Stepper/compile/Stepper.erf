@@ -1,0 +1,5 @@
+WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
+MESSAGE "File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/FSM.vhd" 
+MESSAGE "Compile Entity "FSM"" 
+MESSAGE "Compile Architecture "functional" of Entity "FSM"" 
+SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

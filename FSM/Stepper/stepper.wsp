@@ -1,0 +1,11 @@
+[CACHESIMPLE|Aldec.SymbolsCommands.7]
+Built-in symbols=0
+Stepper=0
+[COMPILESTATUS|.\src\asm_example.vhd]
+FileTimeLow=2560341756
+FileTimeHigh=30995042
+Status=Modified
+[COMPILESTATUS|.\src\FSM.vhd]
+FileTimeLow=473583769
+FileTimeHigh=30995046
+Status=Modified

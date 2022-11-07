@@ -1,0 +1,24 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=4
+Current Config=compile
+[Configurations]
+compile=Stepper
+[Library]
+Stepper=.\Stepper\Stepper.lib
+[$LibMap$]
+Stepper=.
+Active_lib=
+[Settings]
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+FLOWTOOLS=NONE
+FAMILY=
+[Files]
+/asm_example.vhd=-1
+/FSM.vhd=-1
+[Files.Data]
+.\src\asm_example.vhd=VHDL Source Code
+.\src\FSM.vhd=VHDL Source Code
