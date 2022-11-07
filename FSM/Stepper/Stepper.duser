@@ -2,7 +2,7 @@
 <design-settings>
 	<plugins>
 		<Aldec.Stimuli.1>
-			<hierarchy activeStimuliSetName="asm_example">
+			<hierarchy activeStimuliSetName="Counter">
 				<stimuliSet name="FSM">
 					<stimulus name="dir" strength="default" enabled="true" type="value">
 						<stimulus_data>
@@ -96,6 +96,54 @@
 						</stimulus_data>
 						<signals>
 							<signal path="/asm_example/x"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="Counter">
+					<stimulus name="clk" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="10ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/contador_16b/clk"/>
+						</signals>
+					</stimulus>
+					<stimulus name="ena" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/contador_16b/ena"/>
+						</signals>
+					</stimulus>
+					<stimulus name="rst" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/contador_16b/rst"/>
+						</signals>
+					</stimulus>
+					<stimulus name="vd" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/contador_16b/vd"/>
 						</signals>
 					</stimulus>
 				</stimuliSet>

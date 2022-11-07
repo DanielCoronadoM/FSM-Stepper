@@ -19,10 +19,18 @@ FAMILY=
 [Files]
 /asm_example.vhd=-1
 /FSM.vhd=-1
+counter_up_down/counter.vhd=-1
+counter_up_down/reg_nbits.vhd=-1
+counter_up_down/adder_n_bits.vhd=-1
 [Files.Data]
 .\src\asm_example.vhd=VHDL Source Code
 .\src\FSM.vhd=VHDL Source Code
+.\src\counter_up_down\counter.vhd=VHDL Source Code
+.\src\counter_up_down\reg_nbits.vhd=VHDL Source Code
+.\src\counter_up_down\adder_n_bits.vhd=VHDL Source Code
 [HierarchyViewer]
-HierarchyInformation=asm_example|functional|0 fsm|functional|0
+HierarchyInformation=contador_16b|structural|0
 ShowHide=ShowTopLevel
 Selected=
+[Groups]
+counter_up_down=1

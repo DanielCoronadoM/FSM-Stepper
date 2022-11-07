@@ -1,2 +1,5 @@
 i<>.\src\asm_example.vhd
 i<>.\src\FSM.vhd
+i<>.\src\counter.vhd
+i<>.\src\adder_n_bits.vhd
+i<>.\src\reg_nbits.vhd
