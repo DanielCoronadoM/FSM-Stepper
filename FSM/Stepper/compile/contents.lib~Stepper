@@ -1,4 +1,4 @@
-10
+11
 ~E 1 "../src/asm_example.vhd" 7 asm_example
 ~A 1 "../src/asm_example.vhd" 15 functional
 ~E 1 "../src/FSM.vhd" 7 FSM

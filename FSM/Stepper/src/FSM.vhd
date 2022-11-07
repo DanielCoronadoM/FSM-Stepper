@@ -147,18 +147,33 @@ begin
 				end if;
 			
 			------------------------------Step_8
-			when others =>
+			when x"8" =>
 				a	<= '1';
 				b	<= '0';
 				c	<= '0';
 				d	<= '1';
+				
 				if(dir = '1')then
 					Qf <= x"1"; --S1
 				else
 					Qf <= x"7"; --S7
 				end if;
+			
+			------------------Case others
+			when others =>
+				a	<= '0';
+				b	<= '0';
+				c	<= '0';
+				d	<= '0';
+				
+				if(dir = '1')then
+					Qf <= x"1"; --S1
+				else
+					Qf <= x"8"; --S8
+				end if;
 				
 			end case;
+				
 			end if;
 		end if;
 	end process;	
