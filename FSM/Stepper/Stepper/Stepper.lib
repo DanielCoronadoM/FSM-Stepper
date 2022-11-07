@@ -1,24 +1,36 @@
-timestamp=1667796760685
+timestamp=1667800705614
 
 [~A]
-ModifyID=4
+ModifyID=10
 Version=74
 
 [~MFT]
-0=8|0Stepper.mgf|3812|2340
-1=2|1Stepper.mgf|2536|2536
-3=2|3Stepper.mgf|0|0
+0=2|0Stepper.mgf|9943|5973
+1=2|1Stepper.mgf|11164|9848
+3=2|3Stepper.mgf|1835|1052
+
+[asm_example]
+A/functional=21|../src/asm_example.vhd|15|1*6896
+BinW64/functional=3*1052
+I=0*7268
+I/functional=0*8263
+M=11|2|vef|1667799365412|../src/asm_example.vhd|0*6924*0x7ddf10d28dbd6c853dee9ce7f2cfc46949a9cd69|0*7181*0x23b75c12e3e89f2ef000564498faa8c2
+M/functional=21|2|vef|1667799365415|../src/asm_example.vhd|0*7473*0xfde265b5c3a20802d544f49e284a22d15095c5ce|0*8162*0x20116f55b147878295aeff36dce7fc50
+R=../src/asm_example.vhd|7
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|541e1e6a878b3ad8550a5b6f08c9fc69cfe5177e27a22707853a273ebcd9b97a8097b144be9577b435cca60f4a7ef626
+Version/functional=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|9e3113cfe7e883bc10b6ceba6acdf45e4850f667d13a2a5f2c821158b0d86a3f8795e380fa610d833fe85fd19b1533fb
 
 [fsm]
-A/functional=21|../src/FSM.vhd|16|1*2536
-BinW64/functional=3*0
+A/functional=21|../src/FSM.vhd|19|1*11164
+BinW64/functional=3*1835
 I=0*1956
-I/functional=0*3812
+I/functional=0*9943
 M=11|2|vef|1667796755520|../src/FSM.vhd|0*1619*0x60aba193da09e1fa12a402a6f0ec7af3c0d1c3f7|0*1885*0x23b75c12e3e89f2ef000564498faa8c2
-M/functional=21|2|vef|1667796760665|../src/FSM.vhd|0*3081*0x6b9cf587c5688fd55c67de1ae35ed24e7b5b7c9e|0*3727*0x20116f55b147878295aeff36dce7fc50
+M/functional=21|2|vef|1667800705598|../src/FSM.vhd|0*8479*0x3834020aacaee1ba1a1250c8d150a41a32b14e86|0*9858*0x20116f55b147878295aeff36dce7fc50
 R=../src/FSM.vhd|7
 Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|d274df6d00ba93fbeb16b3acd8e09e75758f6eca041ae373a973ee43fc9a3ecf
-Version/functional=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|9e3113cfe7e883bc10b6ceba6acdf45e4850f667d13a2a5f2c821158b0d86a3f32c1e2481aee1c3ce3e5d955280ff530
+Version/functional=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|9e3113cfe7e883bc10b6ceba6acdf45e4850f667d13a2a5f2c821158b0d86a3f45c50d9d052822ab0da0f8f0378bd101
 
 [~U]
+asm_example=11|0*6714|
 fsm=FSM 11|0*1412|

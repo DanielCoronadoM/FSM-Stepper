@@ -22,3 +22,7 @@ FAMILY=
 [Files.Data]
 .\src\asm_example.vhd=VHDL Source Code
 .\src\FSM.vhd=VHDL Source Code
+[HierarchyViewer]
+HierarchyInformation=asm_example|functional|0 fsm|functional|0
+ShowHide=ShowTopLevel
+Selected=
