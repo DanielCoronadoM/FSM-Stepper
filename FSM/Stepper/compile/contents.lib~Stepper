@@ -1,4 +1,4 @@
-21
+22
 ~E 1 "../src/counter/adder_n_bits.vhd" 6 adder_nbits
 ~A 1 "../src/counter_up_down/adder_n_bits.vhd" 14 artithmetic
 ~E 1 "../src/asm_example.vhd" 7 asm_example

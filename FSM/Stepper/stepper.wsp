@@ -8,11 +8,11 @@ Status=Compiled
 [COMPILESTATUS|.\src\FSM.vhd]
 FileTimeLow=3830082673
 FileTimeHigh=30995069
-Status=Modified
+Status=Compiled
 [General]
 CurrentVersion=103
 [CACHEDOC|Aldec.Project.Generic.7|.\Stepper\Stepper.adf|]
-Path=/contador_16b
+Path=
 [COMPILESTATUS|.\src\counter.vhd]
 FileTimeLow=1017628127
 FileTimeHigh=30995062
