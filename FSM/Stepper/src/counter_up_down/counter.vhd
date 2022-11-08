@@ -11,7 +11,8 @@ entity contador_16b is
 	port(
 		clk, ena, rst	:in std_logic;
 		vd				:in std_logic;
-		Count			:out std_logic_vector(15 downto 0)
+		Count			:out std_logic_vector(15 downto 0);
+		f				:out std_logic
 	);
 end entity;
 
@@ -57,5 +58,7 @@ begin
 	mux_0 <= x"0001" when vd='0' else x"FFFF";	 --Multiplexor
 	
 	Count <= As;	--Salida del contador
+	
+	f <= '1' when (Count < 20) else '0';--pwm f
 	
 end architecture;

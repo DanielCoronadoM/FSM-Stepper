@@ -1,11 +1,17 @@
-22
-~E 1 "../src/counter/adder_n_bits.vhd" 6 adder_nbits
+33
+~E 1 "../src/counter_up_down/adder_n_bits.vhd" 6 adder_nbits
 ~A 1 "../src/counter_up_down/adder_n_bits.vhd" 14 artithmetic
 ~E 1 "../src/asm_example.vhd" 7 asm_example
 ~A 1 "../src/asm_example.vhd" 15 functional
-~E 1 "../src/counter.vhd" 6 contador_16b
+~E 1 "../src/U3_base_time/base_time.vhd" 7 base_time
+~A 1 "../src/U3_base_time/base_time.vhd" 14 structural
+~E 1 "../src/U3_base_time/comp_n_bits.vhd" 5 comp_n_bits
+~A 1 "../src/U3_base_time/comp_n_bits.vhd" 13 funtional
+~E 1 "../src/counter_up_down/counter.vhd" 10 contador_16b
 ~A 1 "../src/counter_up_down/counter.vhd" 18 structural
+~E 1 "../src/ctrl_steps.vhd" 11 ctrl_steps
+~A 1 "../src/U0_ctrl_steps.vhd" 19 functional
 ~E 1 "../src/FSM.vhd" 7 FSM
 ~A 1 "../src/FSM.vhd" 19 functional
-~E 1 "../src/counter/reg_nbits.vhd" 6 reg_nbits
+~E 1 "../src/counter_up_down/reg_nbits.vhd" 6 reg_nbits
 ~A 1 "../src/counter_up_down/reg_nbits.vhd" 15 funtional

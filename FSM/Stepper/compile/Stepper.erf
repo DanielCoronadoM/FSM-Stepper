@@ -1,17 +1,8 @@
 WARNING DAGGEN_0523: "The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available."
-MESSAGE "File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/asm_example.vhd" 
-MESSAGE "Compile Entity "asm_example"" 
-MESSAGE "Compile Architecture "functional" of Entity "asm_example"" 
-MESSAGE "File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/FSM.vhd" 
-MESSAGE "Compile Entity "FSM"" 
-MESSAGE "Compile Architecture "functional" of Entity "FSM"" 
 MESSAGE "File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd" 
 MESSAGE "Compile Entity "contador_16b"" 
 MESSAGE "Compile Architecture "structural" of Entity "contador_16b"" 
-MESSAGE "File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/reg_nbits.vhd" 
-MESSAGE "Compile Entity "reg_nbits"" 
-MESSAGE "Compile Architecture "funtional" of Entity "reg_nbits"" 
-MESSAGE "File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/adder_n_bits.vhd" 
-MESSAGE "Compile Entity "adder_nbits"" 
-MESSAGE "Compile Architecture "artithmetic" of Entity "adder_nbits"" 
-SUCCESS "Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]" 
+ERROR COMP96_0393: "Cannot read output : "Count"." "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd" 62 17
+ERROR COMP96_0071: "Operator "<" is not defined for such operands." "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd" 62 25
+ERROR COMP96_0077: "Undefined type of expression. Expected type 'BOOLEAN'." "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd" 62 16
+FAILURE "Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]" 

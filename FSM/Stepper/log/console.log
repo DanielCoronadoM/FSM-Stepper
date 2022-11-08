@@ -1,13 +1,178 @@
 # ELBREAD: Elaboration process.
 # ELBREAD: Elaboration time 0.0 [s].
-acom -O3 -e 100 -work Stepper -2002  $dsn/src/asm_example.vhd $dsn/src/FSM.vhd $dsn/src/counter_up_down/counter.vhd $dsn/src/counter_up_down/reg_nbits.vhd $dsn/src/counter_up_down/adder_n_bits.vhd
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/ctrl_steps.vhd
 # Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
-# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/asm_example.vhd
-# Compile Entity "asm_example"
-# Compile Architecture "functional" of Entity "asm_example"
-# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/FSM.vhd
-# Compile Entity "FSM"
-# Compile Architecture "functional" of Entity "FSM"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/ctrl_steps.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# Error: COMP96_0078: ctrl_steps.vhd : (62, 8): Unknown identifier "dir".
+# Error: COMP96_0133: ctrl_steps.vhd : (62, 8): Cannot find object declaration.
+# Error: COMP96_0077: ctrl_steps.vhd : (62, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ctrl_steps.vhd : (75, 8): Unknown identifier "dir".
+# Error: COMP96_0133: ctrl_steps.vhd : (75, 8): Cannot find object declaration.
+# Error: COMP96_0077: ctrl_steps.vhd : (75, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ctrl_steps.vhd : (88, 8): Unknown identifier "dir".
+# Error: COMP96_0133: ctrl_steps.vhd : (88, 8): Cannot find object declaration.
+# Error: COMP96_0077: ctrl_steps.vhd : (88, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ctrl_steps.vhd : (105, 8): Unknown identifier "dir".
+# Error: COMP96_0133: ctrl_steps.vhd : (105, 8): Cannot find object declaration.
+# Error: COMP96_0077: ctrl_steps.vhd : (105, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ctrl_steps.vhd : (118, 8): Unknown identifier "dir".
+# Error: COMP96_0133: ctrl_steps.vhd : (118, 8): Cannot find object declaration.
+# Error: COMP96_0077: ctrl_steps.vhd : (118, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ctrl_steps.vhd : (131, 8): Unknown identifier "dir".
+# Error: COMP96_0133: ctrl_steps.vhd : (131, 8): Cannot find object declaration.
+# Error: COMP96_0077: ctrl_steps.vhd : (131, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ctrl_steps.vhd : (144, 8): Unknown identifier "dir".
+# Error: COMP96_0133: ctrl_steps.vhd : (144, 8): Cannot find object declaration.
+# Error: COMP96_0077: ctrl_steps.vhd : (144, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ctrl_steps.vhd : (157, 8): Unknown identifier "dir".
+# Error: COMP96_0133: ctrl_steps.vhd : (157, 8): Cannot find object declaration.
+# Error: COMP96_0077: ctrl_steps.vhd : (157, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Error: COMP96_0078: ctrl_steps.vhd : (170, 8): Unknown identifier "dir".
+# Error: COMP96_0133: ctrl_steps.vhd : (170, 8): Cannot find object declaration.
+# Error: COMP96_0077: ctrl_steps.vhd : (170, 7): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 27 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# ULM: Warning: ULM_0021 Architecture "functional" of entity "stepper.ctrl_steps" is not up-to-date. Please recompile file "C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper/src/ctrl_steps.vhd".
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/ctrl_steps.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+asim -O5 +access +r +m+ctrl_steps ctrl_steps functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "Counter" has been made inactive.
+#  07:08 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# VSIM: 11 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /FSM/dir
+# VSIM: Error: Cannot force signal "/FSM/dir" with formula "2#0".
+# KERNEL: Error: Cannot find signal /FSM/clk
+# VSIM: Error: Cannot force signal "/FSM/clk" with formula "0 0fs, 1 5ns -r 10ns".
+# KERNEL: Error: Cannot find signal /FSM/ena
+# VSIM: Error: Cannot force signal "/FSM/ena" with formula "2#1".
+# KERNEL: Error: Cannot find signal /FSM/rst
+# VSIM: Error: Cannot force signal "/FSM/rst" with formula "2#0".
+# Stimuli: Info: The stimuli set "ctrl_steps" has been made active.
+# KERNEL: stopped at time: 250 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ctrl_steps ctrl_steps functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_steps" has been made inactive.
+#  07:09 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# KERNEL: Error: Cannot find signal /FSM/clk
+# VSIM: Error: Cannot force signal "/FSM/clk" with formula "0 0fs, 1 5ns -r 10ns".
+# KERNEL: Error: Cannot find signal /FSM/ena
+# VSIM: Error: Cannot force signal "/FSM/ena" with formula "2#1".
+# KERNEL: Error: Cannot find signal /FSM/rst
+# VSIM: Error: Cannot force signal "/FSM/rst" with formula "2#0".
+# Stimuli: Info: The stimuli set "ctrl_steps" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+# KERNEL: Error: Cannot find signal /asm_example/clk
+# VSIM: Error: Cannot force signal "/asm_example/clk" with formula "0 0fs, 1 5ns -r 10ns".
+# KERNEL: Error: Cannot find signal /asm_example/ena
+# VSIM: Error: Cannot force signal "/asm_example/ena" with formula "2#1".
+# KERNEL: Error: Cannot find signal /asm_example/rst
+# VSIM: Error: Cannot force signal "/asm_example/rst" with formula "2#0".
+# KERNEL: Error: Cannot find signal /asm_example/x
+# VSIM: Error: Cannot force signal "/asm_example/x" with formula "2#0".
+# Stimuli: Info: The stimuli set "asm_example" has been made active.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ctrl_steps ctrl_steps functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "asm_example" has been made inactive.
+#  07:11 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/ctrl_steps.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/ctrl_steps.vhd $dsn/src/counter_up_down/counter.vhd $dsn/src/counter_up_down/reg_nbits.vhd $dsn/src/counter_up_down/adder_n_bits.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
 # File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
 # Compile Entity "contador_16b"
 # Compile Architecture "structural" of Entity "contador_16b"
@@ -17,4 +182,219 @@ acom -O3 -e 100 -work Stepper -2002  $dsn/src/asm_example.vhd $dsn/src/FSM.vhd $
 # File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/adder_n_bits.vhd
 # Compile Entity "adder_nbits"
 # Compile Architecture "artithmetic" of Entity "adder_nbits"
-# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+# Compile success 0 Errors 0 Warnings  Analysis time :  0.1 [s]
+asim -O5 +access +r +m+ctrl_steps ctrl_steps functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6425 kB (elbread=427 elab2=5859 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+#  07:11 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# VSIM: 11 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+# Design: Error: Missing or invalid file name.
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd $dsn/src/counter_up_down/counter.vhd $dsn/src/counter_up_down/reg_nbits.vhd $dsn/src/counter_up_down/adder_n_bits.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/reg_nbits.vhd
+# Compile Entity "reg_nbits"
+# Compile Architecture "funtional" of Entity "reg_nbits"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/adder_n_bits.vhd
+# Compile Entity "adder_nbits"
+# Compile Architecture "artithmetic" of Entity "adder_nbits"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd $dsn/src/U3_base_time/base_time.vhd $dsn/src/U3_base_time/adder_nbits.vhd $dsn/src/U3_base_time/comp_n_bits.vhd $dsn/src/U3_base_time/reg_nbits.vhd $dsn/src/counter_up_down/counter.vhd $dsn/src/counter_up_down/reg_nbits.vhd $dsn/src/counter_up_down/adder_n_bits.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/base_time.vhd
+# Compile Entity "base_time"
+# Compile Architecture "structural" of Entity "base_time"
+# Warning: ELAB1_0026: U3_base_time/base_time.vhd : (80, 0): There is no default binding for component "comp_n_bits". (No entity named "comp_n_bits" was found).
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/adder_nbits.vhd
+# Compile Entity "adder_nbits"
+# Compile Architecture "artithmetic" of Entity "adder_nbits"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/comp_n_bits.vhd
+# Compile Entity "comp_n_bits"
+# Compile Architecture "funtional" of Entity "comp_n_bits"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/reg_nbits.vhd
+# Compile Entity "reg_nbits"
+# Compile Architecture "funtional" of Entity "reg_nbits"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/reg_nbits.vhd
+# Compile Entity "reg_nbits"
+# Warning: COMP96_0994: counter_up_down/reg_nbits.vhd : (6, 1): Multiple entity "reg_nbits" found in "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/reg_nbits.vhd", "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/reg_nbits.vhd".
+# Compile Architecture "funtional" of Entity "reg_nbits"
+# Warning: COMP96_0994: counter_up_down/reg_nbits.vhd : (15, 1): Multiple architecture "funtional" of entity "reg_nbits" found in "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/reg_nbits.vhd", "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/reg_nbits.vhd".
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/adder_n_bits.vhd
+# Compile Entity "adder_nbits"
+# Warning: COMP96_0994: counter_up_down/adder_n_bits.vhd : (6, 1): Multiple entity "adder_nbits" found in "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/adder_n_bits.vhd", "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/adder_nbits.vhd".
+# Compile Architecture "artithmetic" of Entity "adder_nbits"
+# Warning: COMP96_0994: counter_up_down/adder_n_bits.vhd : (14, 1): Multiple architecture "artithmetic" of entity "adder_nbits" found in "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/adder_n_bits.vhd", "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/adder_nbits.vhd".
+# Compile success 0 Errors 5 Warnings  Analysis time :  0.1 [s]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd $dsn/src/U3_base_time/base_time.vhd $dsn/src/U3_base_time/adder_nbits.vhd $dsn/src/U3_base_time/comp_n_bits.vhd $dsn/src/U3_base_time/reg_nbits.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/base_time.vhd
+# Compile Entity "base_time"
+# Compile Architecture "structural" of Entity "base_time"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/adder_nbits.vhd
+# Compile Entity "adder_nbits"
+# Compile Architecture "artithmetic" of Entity "adder_nbits"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/comp_n_bits.vhd
+# Compile Entity "comp_n_bits"
+# Compile Architecture "funtional" of Entity "comp_n_bits"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U3_base_time/reg_nbits.vhd
+# Compile Entity "reg_nbits"
+# Compile Architecture "funtional" of Entity "reg_nbits"
+# Compile success 0 Errors 0 Warnings  Analysis time :  79.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd $dsn/src/counter_up_down/counter.vhd $dsn/src/counter_up_down/reg_nbits.vhd $dsn/src/counter_up_down/adder_n_bits.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/reg_nbits.vhd
+# Compile Entity "reg_nbits"
+# Compile Architecture "funtional" of Entity "reg_nbits"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/adder_n_bits.vhd
+# Compile Entity "adder_nbits"
+# Compile Architecture "artithmetic" of Entity "adder_nbits"
+# Compile success 0 Errors 0 Warnings  Analysis time :  78.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'stepper.adder_nbits' instantiated in architecture 'structural:contador_16b' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'stepper.adder_nbits' instantiated in architecture 'structural:contador_16b' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+# ELBREAD: Elaboration process.
+# ELBREAD: Error: The contents of entity 'stepper.adder_nbits' instantiated in architecture 'structural:contador_16b' differ from the contents available during the compilation of this architecture.
+# ELBREAD: Error: Elaboration process completed with errors.
+# Design: Error: Elaboration failed
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd $dsn/src/counter_up_down/counter.vhd $dsn/src/counter_up_down/reg_nbits.vhd $dsn/src/counter_up_down/adder_n_bits.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/reg_nbits.vhd
+# Compile Entity "reg_nbits"
+# Compile Architecture "funtional" of Entity "reg_nbits"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/adder_n_bits.vhd
+# Compile Entity "adder_nbits"
+# Compile Architecture "artithmetic" of Entity "adder_nbits"
+# Compile success 0 Errors 0 Warnings  Analysis time :  63.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+contador_16b contador_16b structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6595 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_steps" has been made inactive.
+#  07:25 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Warning: WAVEFORM: Object matching /ctrl_steps/Qp not found in C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ctrl_steps/Qf not found in C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ctrl_steps/cw not found in C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ctrl_steps/clk not found in C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ctrl_steps/ena not found in C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ctrl_steps/rst not found in C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ctrl_steps/a not found in C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ctrl_steps/b not found in C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ctrl_steps/c not found in C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ctrl_steps/d not found in C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb.
+# Warning: WAVEFORM: Object matching /ctrl_steps/Q not found in C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb.
+# VSIM: 8 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "Counter" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+run 250 ns
+# KERNEL: stopped at time: 500 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6595 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "Counter" has been made inactive.
+#  07:28 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "Counter" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+run 250 ns
+# KERNEL: stopped at time: 500 ns
+endsim
+# VSIM: Simulation has finished.

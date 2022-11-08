@@ -1,5 +1,7 @@
-i<>.\src\asm_example.vhd
 i<>.\src\FSM.vhd
 i<>.\src\counter.vhd
 i<>.\src\adder_n_bits.vhd
 i<>.\src\reg_nbits.vhd
+i<>.\src\base_time.vhd
+i<>.\src\adder_nbits.vhd
+i<>.\src\comp_n_bits.vhd

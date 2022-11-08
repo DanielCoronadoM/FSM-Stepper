@@ -1,22 +1,22 @@
 --Algorith state machine
 
--- dir = 1 : Giro en sentido horario
--- dir = 0 : Giro en sentido antihorario
+-- cw = 1 : Giro en sentido antihorario
+-- cw = 0 : Giro en sentido horario
 
 library ieee;
 use ieee.std_logic_1164.all; --> Operacione logicas
 
 
-entity FSM is
+entity ctrl_steps is
 	port(
-		dir				:in std_logic;
+		cw				:in std_logic;
 		clk, ena, rst 	:in std_logic;
 		a, b, c, d		:out std_logic;
 		Q				:out std_logic_vector(3 downto 0)
 	);
 end entity;
 
-architecture functional of FSM is
+architecture functional of ctrl_steps is
 
 signal Qp, Qf	:std_logic_vector(3 downto 0):="0000";	 
 
@@ -58,7 +58,7 @@ begin
 				c	<= '0';
 				d	<= '0';
 				
-				if(dir = '1')then
+				if(cw = '1')then
 					Qf <= x"2";	--S2
 				else
 					Qf <= x"8";	--S8
@@ -71,7 +71,7 @@ begin
 				c	<= '0';
 				d	<= '0';
 				
-				if(dir = '1')then
+				if(cw = '1')then
 					Qf <= x"3"; --S3
 				else
 					Qf <= x"1"; --S1
@@ -84,7 +84,7 @@ begin
 				c	<= '0';
 				d	<= '0';
 				
-				if(dir = '1')then
+				if(cw = '1')then
 					a	<= '0';
 					b	<= '1';
 					c	<= '0';
@@ -101,7 +101,7 @@ begin
 				c	<= '1';
 				d	<= '0';
 				
-				if(dir = '1')then
+				if(cw = '1')then
 					Qf <= x"5"; --S5
 				else
 					Qf <= x"3"; --S3
@@ -114,7 +114,7 @@ begin
 				c	<= '1';
 				d	<= '0';
 				
-				if(dir = '1')then
+				if(cw = '1')then
 					Qf <= x"6"; --S6
 				else
 					Qf <= x"4"; --S4
@@ -127,7 +127,7 @@ begin
 				c	<= '1';
 				d	<= '1';
 				
-				if(dir = '1')then
+				if(cw = '1')then
 					Qf <= x"7"; --S7
 				else
 					Qf <= x"5"; --S5
@@ -140,7 +140,7 @@ begin
 				c	<= '0';
 				d	<= '1';
 				
-				if(dir = '1')then
+				if(cw = '1')then
 					Qf <= x"8"; --S8
 				else
 					Qf <= x"6"; --S6
@@ -153,7 +153,7 @@ begin
 				c	<= '0';
 				d	<= '1';
 				
-				if(dir = '1')then
+				if(cw = '1')then
 					Qf <= x"1"; --S1
 				else
 					Qf <= x"7"; --S7
@@ -166,7 +166,7 @@ begin
 				c	<= '0';
 				d	<= '0';
 				
-				if(dir = '1')then
+				if(cw = '1')then
 					Qf <= x"1"; --S1
 				else
 					Qf <= x"8"; --S8

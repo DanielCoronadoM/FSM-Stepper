@@ -1,5 +1,4 @@
-.\src\asm_example.vhd
-.\src\FSM.vhd
+.\src\U0_ctrl_steps.vhd
 .\src\counter_up_down\counter.vhd
 .\src\counter_up_down\reg_nbits.vhd
 .\src\counter_up_down\adder_n_bits.vhd
