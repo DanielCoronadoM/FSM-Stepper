@@ -1,24 +1,24 @@
-timestamp=1667878719173
+timestamp=1667891693067
 
 [~A]
-ModifyID=33
+ModifyID=59
 Version=74
 
 [~MFT]
-0=9|0Stepper.mgf|57566|42516
-1=0|1Stepper.mgf|141151|128610
-3=1|3Stepper.mgf|60847|55741
+0=2|0Stepper.mgf|79154|62115
+1=2|1Stepper.mgf|190537|176429
+3=2|3Stepper.mgf|76029|69639
 
 [adder_nbits]
-A/artithmetic=21|../src/counter_up_down/adder_n_bits.vhd|14|1*141151
-BinW64/artithmetic=3*60847
+A/artithmetic=21|../src/counter_up_down/adder_n_bits.vhd|14|1*157205
+BinW64/artithmetic=3*64928
 I=0*55023
-I/artithmetic=0*56666
+I/artithmetic=0*62371
 M=11|2|vef|1667870619369|../src/counter_up_down/adder_n_bits.vhd|0*54604*0xa92b5e55ad6b34cb27a07a8943b3058f45c98343|0*54919*0x23b75c12e3e89f2ef000564498faa8c2
-M/artithmetic=21|2|vef|1667870684165|../src/counter_up_down/adder_n_bits.vhd|0*55268*0x15391ee9f7cdd1edeeba667f247095fc6692cdc8|0*55537*0x20116f55b147878295aeff36dce7fc50
+M/artithmetic=21|2|vef|1667879522680|../src/counter_up_down/adder_n_bits.vhd|0*55268*0x15391ee9f7cdd1edeeba667f247095fc6692cdc8|0*55537*0x20116f55b147878295aeff36dce7fc50
 R=../src/counter_up_down/adder_n_bits.vhd|6
 Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|c4956ece8c570db3b097aaac1d4b346624ef543800c5f95addbc535904ee817b2772077373ecba3cdfff0a2bf2eacc44
-Version/artithmetic=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|92e42fe221e430b9d51fca3f4cd0381c5bbe2a20f7a8241d8c12579de4abf24b1bbd737ed7875aca50f3df248ebe4f8c
+Version/artithmetic=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|92e42fe221e430b9d51fca3f4cd0381c5bbe2a20f7a8241d8c12579de4abf24b9c693d0000abbce63713b2e6bf8ba726
 
 [asm_example]
 A/functional=21|../src/asm_example.vhd|15|1*79524
@@ -54,24 +54,37 @@ Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|ebd80ca26811490
 Version/funtional=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|d6ad453e40f31c63691ad98adc1caaa91cf4a238d7c8d9bd76caddd6e74c9e7923a05d19a4915a7d7415c2044af984df
 
 [contador_16b]
-A/structural=+21|../src/counter_up_down/counter.vhd|18|1*137044
+A/structural=21|../src/counter_up_down/counter.vhd|19|1*152870
+BinW64/structural=3*63420
 I=0*57566
+I/structural=0*61833
 M=11|2|vef|1667878719164|../src/counter_up_down/counter.vhd|0*57145*0x70af1c62316b82202dea8424c6533d7795e724cb|0*57466*0x23b75c12e3e89f2ef000564498faa8c2
-M/structural=21|2|vef|1667870684139|../src/counter_up_down/counter.vhd|0*27037*0x24333a6ea890b09c9fafc091dcd03cc0d634a732|0*27800*0x20116f55b147878295aeff36dce7fc50
+M/structural=21|2|vef|1667879522642|../src/counter_up_down/counter.vhd|0*60346*0x77cfd3fcfa2c9d00b9750504ddb82be36ad37e4f|0*61179*0x20116f55b147878295aeff36dce7fc50
 R=../src/counter_up_down/counter.vhd|10
 Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|f788572e7a9bbd895375d7829b32c6270672ae81bbe271ab97958e47b22314d9ab69cf7908ac12cbd541cf234c775897
-Version/structural=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebfefec6959c977d68bc25663e265ec951
+Version/structural=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|763af2576fce11abd6060bb6269849fa7b35399d4d6b9112dfc7987dc24af3ebbcd3f9fad94451e4b0347bbc61b7a183
+
+[ctrl_speed]
+A/functional=21|../src/U1_ctrl_speed/U1_ctrl_speed.vhd|14|1*190537
+BinW64/functional=3*76029
+I=0*63402
+I/functional=0*79154
+M=11|2|vef|1667883366431|../src/U1_ctrl_speed/U1_ctrl_speed.vhd|0*63036*0xd58e0c8bbe724b119f9ce79ffbcf1bc51732006b|0*63300*0x23b75c12e3e89f2ef000564498faa8c2
+M/functional=21|2|vef|1667891693059|../src/U1_ctrl_speed/U1_ctrl_speed.vhd|0*78609*0x604404d9bf876a4c80e455c9a505e8eb40da53f6|0*79038*0x20116f55b147878295aeff36dce7fc50
+R=../src/U1_ctrl_speed/U1_ctrl_speed.vhd|7
+Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|c8789c64471c59807b1c7fbaaa594550fab6ad76b97897fe68fceb1e1ca634d89f60593ed814e7d7e1f3c0f30c019371
+Version/functional=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|9e3113cfe7e883bc10b6ceba6acdf45e4850f667d13a2a5f2c821158b0d86a3f3d04ad8918b6a2d6988c8554becb9662
 
 [ctrl_steps]
-A/functional=21|../src/U0_ctrl_steps.vhd|19|1*135525
-BinW64/functional=3*58176
+A/functional=21|../src/U0_ctrl_steps.vhd|19|1*186503
+BinW64/functional=3*74740
 I=0*32936
-I/functional=0*55913
+I/functional=0*78139
 M=11|2|vef|1667869655978|../src/ctrl_steps.vhd|0*32565*0xa6c171940bc5be4d58f89d532dcaa8f092ae3b5d|0*32851*0x23b75c12e3e89f2ef000564498faa8c2
-M/functional=21|2|vef|1667870684118|../src/ctrl_steps.vhd|0*34965*0x9296f0c48d90430ada75aae23fc50e649b2670c9|0*36476*0x20116f55b147878295aeff36dce7fc50
+M/functional=21|2|vef|1667888518052|../src/ctrl_steps.vhd|0*34965*0x9296f0c48d90430ada75aae23fc50e649b2670c9|0*36476*0x20116f55b147878295aeff36dce7fc50
 R=../src/ctrl_steps.vhd|11
 Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|8b653f63642806d2dca6d530aa4ceb76e613286c2ce56ab8c7d4ae1ecd32e833d07818d9780756e49ca7a22c9d97d3eb
-Version/functional=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|9e3113cfe7e883bc10b6ceba6acdf45e4850f667d13a2a5f2c821158b0d86a3f5a392375166a54ff8c8d8f4c76b906e8
+Version/functional=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|9e3113cfe7e883bc10b6ceba6acdf45e4850f667d13a2a5f2c821158b0d86a3fea4ea92d553992bdc8d4ba75d8fb6245
 
 [fsm]
 A/functional=21|../src/FSM.vhd|19|1*80840
@@ -85,15 +98,15 @@ Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|d274df6d00ba93f
 Version/functional=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|9e3113cfe7e883bc10b6ceba6acdf45e4850f667d13a2a5f2c821158b0d86a3f964a1fa352c67f5e6dcc3ab93e2418e1
 
 [reg_nbits]
-A/funtional=21|../src/counter_up_down/reg_nbits.vhd|15|1*139776
-BinW64/funtional=3*59968
+A/funtional=21|../src/counter_up_down/reg_nbits.vhd|15|1*155830
+BinW64/funtional=3*64049
 I=0*53532
-I/funtional=0*56453
+I/funtional=0*62158
 M=11|2|vef|1667870619346|../src/counter_up_down/reg_nbits.vhd|0*53122*0x7681fe36999bbebfc32b554cc7757e4881d5478a|0*53433*0x23b75c12e3e89f2ef000564498faa8c2
-M/funtional=21|2|vef|1667870684153|../src/counter_up_down/reg_nbits.vhd|0*53735*0x51c1f4e334056e692870c749d0bdfd6ae20003de|0*54062*0x20116f55b147878295aeff36dce7fc50
+M/funtional=21|2|vef|1667879522661|../src/counter_up_down/reg_nbits.vhd|0*53735*0x51c1f4e334056e692870c749d0bdfd6ae20003de|0*54062*0x20116f55b147878295aeff36dce7fc50
 R=../src/counter_up_down/reg_nbits.vhd|6
 Version=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|1a67f7d4c65a4b142ef1c2cb2e5286cadfaad4d11a9a182f7fe1e813fac61073f0b33edf26d0cf5ebb1b422f79f75479
-Version/funtional=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|d6ad453e40f31c63691ad98adc1caaa91cf4a238d7c8d9bd76caddd6e74c9e79da12c02831f4e1283edc9cdef99c9268
+Version/funtional=13.0.376.8320 (Windows64)|00000003789cd3f5370600015b00b0|d6ad453e40f31c63691ad98adc1caaa91cf4a238d7c8d9bd76caddd6e74c9e79226122bcaf9acc7302da791e2a00fa4a
 
 [~U]
 adder_nbits=11|0*54387|
@@ -101,6 +114,8 @@ asm_example=11|0*6714|
 base_time=11|0*38810|
 comp_n_bits=11|0*42390|
 contador_16b=11|0*56923|
+ctrl_speed=11|0*62843|
 ctrl_steps=11|0*32345|
 fsm=FSM 11|0*1412|
 reg_nbits=11|0*52895|
+

@@ -37,7 +37,8 @@ component reg_nbits is
 	
 end component;
 --Conectar-------------------
-signal mux_0, As, Ys : std_logic_vector(15 downto 0);	
+signal mux_0, As, Ys : std_logic_vector(15 downto 0);
+signal spd			:std_logic_vector(4 downto 0):= "10100";
 begin
 	UO : adder_nbits generic map(N=>16)		--Tipo de instanciacion por nombre
 		port map(
@@ -59,6 +60,6 @@ begin
 	
 	Count <= As;	--Salida del contador
 	
-	f <= '1' when (Count < 20) else '0';--pwm f
+	f <= '0' when (As < spd) else '1';--pwm f
 	
 end architecture;

@@ -2,55 +2,7 @@
 <design-settings>
 	<plugins>
 		<Aldec.Stimuli.1>
-			<hierarchy activeStimuliSetName="Counter">
-				<stimuliSet name="FSM">
-					<stimulus name="dir" strength="default" enabled="true" type="value">
-						<stimulus_data>
-							<value value="0"/>
-							<radix value="binary"/>
-							<cancel_time value="0fs" enabled="false"/>
-						</stimulus_data>
-						<signals>
-							<signal path="/FSM/dir"/>
-						</signals>
-					</stimulus>
-					<stimulus name="clk" strength="default" enabled="true" type="clock">
-						<stimulus_data>
-							<period value="10ns"/>
-							<low_value value="0"/>
-							<high_value value="1"/>
-							<starting_value value="low"/>
-							<duty_cycle value="50.000000"/>
-							<offset value="0fs" enabled="false"/>
-							<cancel_time value="0fs" enabled="false"/>
-							<frequency_jitter value="0fs" enabled="false"/>
-							<phase_jitter value="0fs" enabled="false"/>
-						</stimulus_data>
-						<signals>
-							<signal path="/FSM/clk"/>
-						</signals>
-					</stimulus>
-					<stimulus name="ena" strength="default" enabled="true" type="value">
-						<stimulus_data>
-							<value value="1"/>
-							<radix value="binary"/>
-							<cancel_time value="0fs" enabled="false"/>
-						</stimulus_data>
-						<signals>
-							<signal path="/FSM/ena"/>
-						</signals>
-					</stimulus>
-					<stimulus name="rst" strength="default" enabled="true" type="value">
-						<stimulus_data>
-							<value value="0"/>
-							<radix value="binary"/>
-							<cancel_time value="0fs" enabled="false"/>
-						</stimulus_data>
-						<signals>
-							<signal path="/FSM/rst"/>
-						</signals>
-					</stimulus>
-				</stimuliSet>
+			<hierarchy activeStimuliSetName="frec_out">
 				<stimuliSet name="asm_example">
 					<stimulus name="clk" strength="default" enabled="true" type="clock">
 						<stimulus_data>
@@ -144,6 +96,102 @@
 						</stimulus_data>
 						<signals>
 							<signal path="/contador_16b/vd"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="ctrl_steps">
+					<stimulus name="cw" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ctrl_steps/cw"/>
+						</signals>
+					</stimulus>
+					<stimulus name="clk" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="10ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ctrl_steps/clk"/>
+						</signals>
+					</stimulus>
+					<stimulus name="ena" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ctrl_steps/ena"/>
+						</signals>
+					</stimulus>
+					<stimulus name="rst" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ctrl_steps/rst"/>
+						</signals>
+					</stimulus>
+				</stimuliSet>
+				<stimuliSet name="frec_out">
+					<stimulus name="clk" strength="default" enabled="true" type="clock">
+						<stimulus_data>
+							<period value="2ns"/>
+							<low_value value="0"/>
+							<high_value value="1"/>
+							<starting_value value="low"/>
+							<duty_cycle value="50.000000"/>
+							<offset value="0fs" enabled="false"/>
+							<cancel_time value="0fs" enabled="false"/>
+							<frequency_jitter value="0fs" enabled="false"/>
+							<phase_jitter value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ctrl_speed/clk"/>
+						</signals>
+					</stimulus>
+					<stimulus name="ena" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="1"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ctrl_speed/ena"/>
+						</signals>
+					</stimulus>
+					<stimulus name="rst" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="0"/>
+							<radix value="binary"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ctrl_speed/rst"/>
+						</signals>
+					</stimulus>
+					<stimulus name="speed" strength="default" enabled="true" type="value">
+						<stimulus_data>
+							<value value="20"/>
+							<radix value="decimal"/>
+							<cancel_time value="0fs" enabled="false"/>
+						</stimulus_data>
+						<signals>
+							<signal path="/ctrl_speed/spd"/>
 						</signals>
 					</stimulus>
 				</stimuliSet>

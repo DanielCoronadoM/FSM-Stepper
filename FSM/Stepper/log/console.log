@@ -398,3 +398,2072 @@ run 250 ns
 # KERNEL: stopped at time: 500 ns
 endsim
 # VSIM: Simulation has finished.
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/counter_up_down/counter.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# Error: COMP96_0393: counter_up_down/counter.vhd : (62, 17): Cannot read output : "Count".
+# Error: COMP96_0071: counter_up_down/counter.vhd : (62, 25): Operator "<" is not defined for such operands.
+# Error: COMP96_0077: counter_up_down/counter.vhd : (62, 16): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 3 Errors 0 Warnings  Analysis time :  16.0 [ms]
+# ULM: Warning: ULM_0021 Architecture "structural" of entity "stepper.contador_16b" is not up-to-date. Please recompile file "C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper/src/counter_up_down/counter.vhd".
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/counter_up_down/counter.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# Error: COMP96_0071: counter_up_down/counter.vhd : (62, 22): Operator "<" is not defined for such operands.
+# Error: COMP96_0077: counter_up_down/counter.vhd : (62, 16): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  15.0 [ms]
+# ULM: Warning: ULM_0021 Architecture "structural" of entity "stepper.contador_16b" is not up-to-date. Please recompile file "C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper/src/counter_up_down/counter.vhd".
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/counter_up_down/counter.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# Error: COMP96_0071: counter_up_down/counter.vhd : (63, 22): Operator "<" is not defined for such operands.
+# Error: COMP96_0077: counter_up_down/counter.vhd : (63, 16): Undefined type of expression. Expected type 'BOOLEAN'.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+# ULM: Warning: ULM_0021 Architecture "structural" of entity "stepper.contador_16b" is not up-to-date. Please recompile file "C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper/src/counter_up_down/counter.vhd".
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/counter_up_down/counter.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+asim -O5 +access +r +m+contador_16b contador_16b structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6596 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "Counter" has been made inactive.
+#  09:45 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# VSIM: 10 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "Counter" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6596 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "Counter" has been made inactive.
+#  09:46 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "Counter" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/counter_up_down/counter.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# Error: COMP96_0367: counter_up_down/counter.vhd : (41, 46): Improper array length (8). Expected length is 5.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/counter_up_down/counter.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+asim -O5 +access +r +m+contador_16b contador_16b structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6596 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "Counter" has been made inactive.
+#  09:48 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "Counter" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6596 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "Counter" has been made inactive.
+#  09:51 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "Counter" has been made active.
+run 250 ns
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/counter_up_down/counter.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6596 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "Counter" has been made inactive.
+#  09:51 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd $dsn/src/counter_up_down/counter.vhd $dsn/src/counter_up_down/reg_nbits.vhd $dsn/src/counter_up_down/adder_n_bits.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/counter.vhd
+# Compile Entity "contador_16b"
+# Compile Architecture "structural" of Entity "contador_16b"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/reg_nbits.vhd
+# Compile Entity "reg_nbits"
+# Compile Architecture "funtional" of Entity "reg_nbits"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/counter_up_down/adder_n_bits.vhd
+# Compile Entity "adder_nbits"
+# Compile Architecture "artithmetic" of Entity "adder_nbits"
+# Compile success 0 Errors 0 Warnings  Analysis time :  93.0 [ms]
+asim -O5 +access +r +m+contador_16b contador_16b structural
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6596 kB (elbread=427 elab2=6029 kernel=139 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+#  09:52 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "Counter" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: COMP96_0003: Source file "C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd" is empty.
+# Compile success 0 Errors 1 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0029: U1_ctrl_speed/U1_ctrl_speed.vhd : (26, 4): Expression expected.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0077: U1_ctrl_speed/U1_ctrl_speed.vhd : (24, 15): Undefined type of expression. Expected type 'UNSIGNED'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0090: U1_ctrl_speed/U1_ctrl_speed.vhd : (15, 22): Expected array type.
+# Error: COMP96_0064: U1_ctrl_speed/U1_ctrl_speed.vhd : (15, 15): Unknown type.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0077: U1_ctrl_speed/U1_ctrl_speed.vhd : (24, 15): Undefined type of expression. Expected type 'UNSIGNED'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0077: U1_ctrl_speed/U1_ctrl_speed.vhd : (24, 15): Undefined type of expression. Expected type 'UNSIGNED'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5564 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "Counter" has been made inactive.
+#  11:01 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# VSIM: 5 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0367: U1_ctrl_speed/U1_ctrl_speed.vhd : (16, 38): Improper array length (8). Expected length is 18.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0367: U1_ctrl_speed/U1_ctrl_speed.vhd : (16, 38): Improper array length (20). Expected length is 18.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0367: U1_ctrl_speed/U1_ctrl_speed.vhd : (16, 38): Improper array length (16). Expected length is 18.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0367: U1_ctrl_speed/U1_ctrl_speed.vhd : (16, 38): Improper array length (4). Expected length is 18.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0367: U1_ctrl_speed/U1_ctrl_speed.vhd : (16, 38): Improper array length (12). Expected length is 18.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0367: U1_ctrl_speed/U1_ctrl_speed.vhd : (16, 38): Improper array length (20). Expected length is 18.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0367: U1_ctrl_speed/U1_ctrl_speed.vhd : (16, 38): Improper array length (20). Expected length is 18.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0367: U1_ctrl_speed/U1_ctrl_speed.vhd : (16, 38): Improper array length (16). Expected length is 18.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0367: U1_ctrl_speed/U1_ctrl_speed.vhd : (16, 38): Improper array length (4). Expected length is 20.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  15.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0367: U1_ctrl_speed/U1_ctrl_speed.vhd : (16, 38): Improper array length (16). Expected length is 20.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0019: U1_ctrl_speed/U1_ctrl_speed.vhd : (35, 6): Keyword 'if' expected.
+# Error: COMP96_0015: U1_ctrl_speed/U1_ctrl_speed.vhd : (35, 6): ';' expected.
+# Error: COMP96_0019: U1_ctrl_speed/U1_ctrl_speed.vhd : (37, 5): Keyword 'process' expected.
+# Error: COMP96_0019: U1_ctrl_speed/U1_ctrl_speed.vhd : (37, 17): Keyword 'end' expected.
+# Compile failure 4 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5564 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_speed" has been made inactive.
+#  11:10 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "ctrl_speed" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: U1_ctrl_speed/U1_ctrl_speed.vhd : (30, 14): ';' expected.
+# Error: COMP96_0019: U1_ctrl_speed/U1_ctrl_speed.vhd : (30, 34): Keyword 'end' expected.
+# Error: COMP96_0019: U1_ctrl_speed/U1_ctrl_speed.vhd : (33, 7): Keyword 'process' expected.
+# Error: COMP96_0015: U1_ctrl_speed/U1_ctrl_speed.vhd : (34, 6): ';' expected.
+# Error: COMP96_0016: U1_ctrl_speed/U1_ctrl_speed.vhd : (34, 13): Design unit declaration expected.
+# Error: COMP96_0018: U1_ctrl_speed/U1_ctrl_speed.vhd : (36, 17): Identifier expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: U1_ctrl_speed/U1_ctrl_speed.vhd : (30, 14): ';' expected.
+# Error: COMP96_0019: U1_ctrl_speed/U1_ctrl_speed.vhd : (30, 34): Keyword 'end' expected.
+# Error: COMP96_0019: U1_ctrl_speed/U1_ctrl_speed.vhd : (32, 8): Keyword 'process' expected.
+# Error: COMP96_0015: U1_ctrl_speed/U1_ctrl_speed.vhd : (33, 7): ';' expected.
+# Error: COMP96_0016: U1_ctrl_speed/U1_ctrl_speed.vhd : (33, 9): Design unit declaration expected.
+# Error: COMP96_0018: U1_ctrl_speed/U1_ctrl_speed.vhd : (36, 17): Identifier expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: U1_ctrl_speed/U1_ctrl_speed.vhd : (30, 14): ';' expected.
+# Error: COMP96_0019: U1_ctrl_speed/U1_ctrl_speed.vhd : (30, 34): Keyword 'end' expected.
+# Error: COMP96_0019: U1_ctrl_speed/U1_ctrl_speed.vhd : (33, 7): Keyword 'process' expected.
+# Error: COMP96_0015: U1_ctrl_speed/U1_ctrl_speed.vhd : (34, 6): ';' expected.
+# Error: COMP96_0016: U1_ctrl_speed/U1_ctrl_speed.vhd : (34, 13): Design unit declaration expected.
+# Error: COMP96_0018: U1_ctrl_speed/U1_ctrl_speed.vhd : (36, 17): Identifier expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# A feature of VHDL 2008 has been detected. Use the -2008 argument of the vcom command.
+# Error: COMP96_0015: U1_ctrl_speed/U1_ctrl_speed.vhd : (32, 13): ';' expected.
+# Error: COMP96_0019: U1_ctrl_speed/U1_ctrl_speed.vhd : (32, 33): Keyword 'end' expected.
+# Error: COMP96_0019: U1_ctrl_speed/U1_ctrl_speed.vhd : (33, 7): Keyword 'process' expected.
+# Error: COMP96_0015: U1_ctrl_speed/U1_ctrl_speed.vhd : (34, 6): ';' expected.
+# Error: COMP96_0016: U1_ctrl_speed/U1_ctrl_speed.vhd : (34, 13): Design unit declaration expected.
+# Error: COMP96_0018: U1_ctrl_speed/U1_ctrl_speed.vhd : (36, 17): Identifier expected.
+# Compile failure 6 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5564 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_speed" has been made inactive.
+#  11:19 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "ctrl_speed" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5564 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_speed" has been made inactive.
+#  11:21 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "ctrl_speed" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0077: U1_ctrl_speed/U1_ctrl_speed.vhd : (21, 48): Undefined type of expression. Expected type 'UNSIGNED'.
+# Compile failure 1 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5565 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_speed" has been made inactive.
+#  11:30 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "ctrl_speed" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Error: COMP96_0078: U1_ctrl_speed/U1_ctrl_speed.vhd : (23, 20): Unknown identifier "bt".
+# Error: COMP96_0348: U1_ctrl_speed/U1_ctrl_speed.vhd : (23, 20): Name on sensitivity list must denote a signal.
+# Compile failure 2 Errors 0 Warnings  Analysis time :  0.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5565 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_speed" has been made inactive.
+#  11:38 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "ctrl_speed" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  62.0 [ms]
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5565 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_speed" has been made inactive.
+#  11:39 p. m., lunes, 7 de noviembre de 2022
+#  Simulation has been initialized
+# VSIM: 6 object(s) traced.
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "ctrl_speed" has been made active.
+# KERNEL: stopped at time: 100 ns
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  31.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6589 kB (elbread=427 elab2=6023 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_speed" has been made inactive.
+#  12:15 a. m., martes, 8 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "ctrl_speed" has been made active.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  32.0 [ms]
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U0_ctrl_steps.vhd $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U0_ctrl_steps.vhd
+# Compile Entity "ctrl_steps"
+# Compile Architecture "functional" of Entity "ctrl_steps"
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  47.0 [ms]
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 6589 kB (elbread=427 elab2=6023 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_speed" has been made inactive.
+#  12:22 a. m., martes, 8 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "ctrl_speed" has been made active.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  16.0 [ms]
+endsim
+# VSIM: Simulation has finished.
+acom -O3 -e 100 -work Stepper -2002  $dsn/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Warning: DAGGEN_0523: The source is compiled without the -dbg switch. Line breakpoints and assertion debug will not be available.
+# File: C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/U1_ctrl_speed/U1_ctrl_speed.vhd
+# Compile Entity "ctrl_speed"
+# Compile Architecture "functional" of Entity "ctrl_speed"
+# Compile success 0 Errors 0 Warnings  Analysis time :  15.0 [ms]
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5565 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_speed" has been made inactive.
+#  01:14 a. m., martes, 8 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "ctrl_speed" has been made active.
+run 500 ns
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 1 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 1 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 3 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 3 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 5 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 5 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 7 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 7 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 9 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 9 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 11 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 11 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 13 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 13 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 15 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 15 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 17 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 17 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 19 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 19 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 21 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 21 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 23 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 23 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 25 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 25 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 27 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 27 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 29 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 29 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 31 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 31 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 33 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 33 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 35 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 35 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 37 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 37 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 39 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 39 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 41 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 41 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 43 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 43 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 45 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 45 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 47 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 47 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 49 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 49 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 51 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 51 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 53 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 53 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 55 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 55 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 57 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 57 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 59 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 59 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 61 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 61 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 63 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 63 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 65 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 65 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 67 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 67 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 69 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 69 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 71 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 71 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 73 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 73 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 75 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 75 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 77 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 77 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 79 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 79 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 81 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 81 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 83 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 83 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 85 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 85 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 87 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 87 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 89 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 89 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 91 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 91 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 93 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 93 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 95 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 95 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 97 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 97 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 99 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 99 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 101 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 101 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 103 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 103 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 105 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 105 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 107 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 107 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 109 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 109 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 111 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 111 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 113 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 113 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 115 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 115 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 117 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 117 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 119 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 119 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 121 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 121 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 123 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 123 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 125 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 125 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 127 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 127 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 129 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 129 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 131 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 131 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 133 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 133 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 135 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 135 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 137 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 137 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 139 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 139 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 141 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 141 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 143 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 143 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 145 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 145 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 147 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 147 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 149 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 149 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 151 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 151 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 153 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 153 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 155 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 155 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 157 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 157 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 159 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 159 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 161 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 161 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 163 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 163 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 165 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 165 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 167 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 167 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 169 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 169 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 171 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 171 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 173 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 173 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 175 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 175 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 177 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 177 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 179 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 179 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 181 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 181 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 183 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 183 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 185 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 185 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 187 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 187 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 189 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 189 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 191 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 191 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 193 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 193 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 195 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 195 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 197 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 197 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 199 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 199 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 201 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 201 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 203 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 203 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 205 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 205 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 207 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 207 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 209 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 209 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 211 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 211 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 213 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 213 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 215 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 215 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 217 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 217 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 219 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 219 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 221 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 221 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 223 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 223 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 225 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 225 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 227 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 227 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 229 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 229 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 231 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 231 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 233 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 233 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 235 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 235 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 237 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 237 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 239 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 239 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 241 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 241 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 243 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 243 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 245 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 245 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 247 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 247 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 249 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 249 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 251 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 251 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 253 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 253 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 255 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 255 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 257 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 257 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 259 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 259 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 261 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 261 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 263 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 263 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 265 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 265 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 267 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 267 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 269 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 269 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 271 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 271 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 273 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 273 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 275 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 275 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 277 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 277 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 279 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 279 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 281 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 281 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 283 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 283 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 285 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 285 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 287 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 287 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 289 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 289 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 291 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 291 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 293 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 293 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 295 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 295 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 297 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 297 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 299 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 299 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 301 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 301 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 303 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 303 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 305 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 305 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 307 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 307 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 309 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 309 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 311 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 311 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 313 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 313 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 315 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 315 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 317 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 317 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 319 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 319 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 321 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 321 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 323 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 323 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 325 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 325 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 327 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 327 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 329 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 329 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 331 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 331 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 333 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 333 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 335 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 335 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 337 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 337 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 339 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 339 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 341 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 341 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 343 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 343 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 345 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 345 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 347 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 347 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 349 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 349 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 351 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 351 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 353 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 353 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 355 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 355 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 357 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 357 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 359 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 359 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 361 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 361 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 363 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 363 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 365 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 365 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 367 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 367 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 369 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 369 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 371 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 371 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 373 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 373 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 375 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 375 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 377 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 377 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 379 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 379 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 381 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 381 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 383 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 383 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 385 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 385 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 387 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 387 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 389 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 389 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 391 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 391 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 393 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 393 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 395 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 395 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 397 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 397 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 399 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 399 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 401 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 401 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 403 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 403 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 405 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 405 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 407 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 407 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 409 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 409 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 411 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 411 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 413 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 413 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 415 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 415 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 417 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 417 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 419 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 419 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 421 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 421 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 423 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 423 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 425 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 425 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 427 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 427 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 429 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 429 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 431 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 431 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 433 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 433 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 435 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 435 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 437 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 437 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 439 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 439 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 441 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 441 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 443 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 443 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 445 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 445 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 447 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 447 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 449 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 449 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 451 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 451 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 453 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 453 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 455 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 455 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 457 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 457 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 459 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 459 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 461 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 461 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 463 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 463 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 465 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 465 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 467 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 467 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 469 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 469 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 471 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 471 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 473 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 473 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 475 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 475 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 477 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 477 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 479 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 479 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 481 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 481 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 483 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 483 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 485 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 485 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 487 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 487 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 489 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 489 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 491 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 491 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 493 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 493 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 495 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 495 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 497 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 497 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 499 ns,  Iteration: 0,  Instance: /ctrl_speed,  Process: contador.
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 499 ns,  Iteration: 1,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: stopped at time: 500 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5565 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_speed" has been made inactive.
+#  01:16 a. m., martes, 8 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+run 500 ns
+# KERNEL: WARNING: NUMERIC_STD.">": metavalue detected, returning FALSE
+# KERNEL: Time: 0 ps,  Iteration: 0,  Instance: /ctrl_speed,  Process: line__20.
+# KERNEL: stopped at time: 500 ns
+# KERNEL: Simulation has finished. There are no more test vectors to simulate.
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5565 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+#  01:17 a. m., martes, 8 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "ctrl_speed" has been made active.
+run 500 ns
+# KERNEL: stopped at time: 500 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5565 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "ctrl_speed" has been made inactive.
+#  01:17 a. m., martes, 8 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "ctrl_speed" has been made active.
+# KERNEL: stopped at time: 250 ns
+run 250 ns
+# KERNEL: stopped at time: 500 ns
+run 250 ns
+# KERNEL: stopped at time: 750 ns
+endsim
+# VSIM: Simulation has finished.
+asim -O5 +access +r +m+ctrl_speed ctrl_speed functional
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# VSIM: Stack memory: 32MB
+# VSIM: Retval memory: 32MB
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5565 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "fre" has been made inactive.
+#  01:41 a. m., martes, 8 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "frec_out" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+run 250 ns
+# KERNEL: stopped at time: 500 ns
+run 250 ns
+# KERNEL: stopped at time: 750 ns
+run 250 ns
+# KERNEL: stopped at time: 1 us
+run 250 ns
+# KERNEL: stopped at time: 1250 ns
+restart
+# ELBREAD: Elaboration process.
+# ELBREAD: Elaboration time 0.0 [s].
+# 
+# KERNEL: Main thread initiated.
+# KERNEL: Kernel process initialization phase.
+# ELAB2: Elaboration final pass...
+# ELAB2: Create instances ...
+# KERNEL: Time resolution set to 1ps.
+# ELAB2: Create instances complete.
+# SLP: Started
+# SLP: Elaboration phase ...
+# SLP: Elaboration phase ... skipped, nothing to simulate in SLP mode : 0.0 [s]
+# SLP: Finished : 0.0 [s]
+# ELAB2: Elaboration final pass complete - time: 0.0 [s].
+# KERNEL: Warning: You are using the Active-HDL Student Edition. The performance of simulation is running at a reduced rate.
+# KERNEL: Warning: Contact Aldec for available upgrade options - sales@aldec.com.
+# KERNEL: Kernel process initialization done.
+# Allocation: Simulator allocated 5565 kB (elbread=427 elab2=4998 kernel=138 sdf=0)
+# KERNEL: ASDB file was created in location C:\Users\Daniel\Desktop\Dispositivos Digitales Programables\Unidad 2\Actividad 4 (FSM stepper)\FSM\Stepper\src\wave.asdb
+# Stimuli: Warning: The stimuli set "frec_out" has been made inactive.
+#  01:44 a. m., martes, 8 de noviembre de 2022
+#  Simulation has been initialized
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/Dispositivos Digitales Programables/Unidad 2/Actividad 4 (FSM stepper)/FSM/Stepper/src/wave.asdb'.
+# Stimuli: Info: The stimuli set "frec_out" has been made active.
+run 250 ns
+# KERNEL: stopped at time: 250 ns
+run 250 ns
+# KERNEL: stopped at time: 500 ns
+run 250 ns
+# KERNEL: stopped at time: 750 ns
+run 250 ns
+# KERNEL: stopped at time: 1 us
+run 250 ns
+# KERNEL: stopped at time: 1250 ns
+run 250 ns
+# KERNEL: stopped at time: 1500 ns
+run 250 ns
+# KERNEL: stopped at time: 1750 ns
+# Waveform file 'untitled.awc' connected to 'C:/Users/Daniel/Desktop/DispositivosDigitalesProgramables/Unidad2/Actividad4(FSMstepper)/FSM/Stepper/src/frec_out_1.asdb'.
+# Adding file C:\Users\Daniel\Desktop\DispositivosDigitalesProgramables\Unidad2\Actividad4(FSMstepper)\FSM\Stepper\src\frec_out_1.asdb ... Done
+# Adding file C:\Users\Daniel\Desktop\DispositivosDigitalesProgramables\Unidad2\Actividad4(FSMstepper)\FSM\Stepper\src\frec_out_1.awc ... Done
+# Adding file C:\Users\Daniel\Desktop\DispositivosDigitalesProgramables\Unidad2\Actividad4(FSMstepper)\FSM\Stepper\src\frec_out_1.awc ... Done

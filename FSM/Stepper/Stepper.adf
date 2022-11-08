@@ -19,27 +19,34 @@ FAMILY=
 [Files]
 /asm_example.vhd=-1
 /U0_ctrl_steps.vhd=-1
-U3_base_time/base_time.vhd=-1
-U3_base_time/adder_nbits.vhd=-1
-U3_base_time/comp_n_bits.vhd=-1
-U3_base_time/reg_nbits.vhd=-1
+/..\..\..\..\..\..\DispositivosDigitalesProgramables\Unidad2\Actividad4(FSMstepper)\FSM\Stepper\src\frec_out_1.asdb=-1
+/..\..\..\..\..\..\DispositivosDigitalesProgramables\Unidad2\Actividad4(FSMstepper)\FSM\Stepper\src\frec_out_1.awc=-1
+U1_ctrl_speed/frec_out.vhd=-1
+U2_base_time/base_time.vhd=-1
+U2_base_time/adder_nbits.vhd=-1
+U2_base_time/comp_n_bits.vhd=-1
+U2_base_time/reg_nbits.vhd=-1
 counter_up_down/counter.vhd=-1
 counter_up_down/reg_nbits.vhd=-1
 counter_up_down/adder_n_bits.vhd=-1
 [Files.Data]
 .\src\asm_example.vhd=VHDL Source Code
 .\src\U0_ctrl_steps.vhd=VHDL Source Code
-.\src\U3_base_time\base_time.vhd=VHDL Source Code
-.\src\U3_base_time\adder_nbits.vhd=VHDL Source Code
-.\src\U3_base_time\comp_n_bits.vhd=VHDL Source Code
-.\src\U3_base_time\reg_nbits.vhd=VHDL Source Code
+.\..\..\..\..\..\DispositivosDigitalesProgramables\Unidad2\Actividad4(FSMstepper)\FSM\Stepper\src\frec_out_1.asdb=Accelerated Waveform File
+.\..\..\..\..\..\DispositivosDigitalesProgramables\Unidad2\Actividad4(FSMstepper)\FSM\Stepper\src\frec_out_1.awc=Accelerated Waveform Configuration
+.\src\U1_ctrl_speed\frec_out.vhd=VHDL Source Code
+.\src\U2_base_time\base_time.vhd=VHDL Source Code
+.\src\U2_base_time\adder_nbits.vhd=VHDL Source Code
+.\src\U2_base_time\comp_n_bits.vhd=VHDL Source Code
+.\src\U2_base_time\reg_nbits.vhd=VHDL Source Code
 .\src\counter_up_down\counter.vhd=VHDL Source Code
 .\src\counter_up_down\reg_nbits.vhd=VHDL Source Code
 .\src\counter_up_down\adder_n_bits.vhd=VHDL Source Code
 [HierarchyViewer]
-HierarchyInformation=contador_16b|structural|0
+HierarchyInformation=contador_16b|structural|0 ctrl_speed|functional|0 ctrl_steps|functional|0
 ShowHide=ShowTopLevel
 Selected=
 [Groups]
-U3_base_time=0
-counter_up_down=1
+U1_ctrl_speed=1
+U2_base_time=0
+counter_up_down=0

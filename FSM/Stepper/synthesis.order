@@ -5,3 +5,4 @@ i<>.\src\reg_nbits.vhd
 i<>.\src\base_time.vhd
 i<>.\src\adder_nbits.vhd
 i<>.\src\comp_n_bits.vhd
+i<>.\src\U1_ctrl_speed.vhd
